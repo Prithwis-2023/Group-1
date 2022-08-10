@@ -4,7 +4,14 @@ This repository is a collection of the codes and data that have been implemented
 - **Authors:** Jonathan Jiang, Ruoxin Huang, Prithwis Das, Fuyang Feng, Philip E. Rosen, Derek Zuo, Rocky Gao, Kristen A. Fahy, Leopold Van Ijzendoorn.
 - **Publication:** TBD
 - **Correspondence:** jonathan.h.jiang@jpl.nasa.gov
-                                                                                                                                  
+- **Try yourself**: Users may run the code in the pre configured sandbox environment powered by **next.tech**, a Plurasight company. 
+- 
+![image](https://user-images.githubusercontent.com/72024767/183885987-8af5b227-a664-4d3c-b952-6d980dc90eb5.png)
+
+Sandbox URL: https://nt.dev/s/0e08a44957c4
+
+
 <p align="center">
+  Supported by
   <img src="https://planetaryprotection.jpl.nasa.gov/resources/img/layout/logo_nasa_trio_black@2x.png">
 </p>  
