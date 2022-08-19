@@ -26,7 +26,7 @@ y_pred = []
 for year in df["Year"]:
   x_data.append(int(year))
 
-for i in range(1880, 2501):
+for i in range(1880, 2101):
   x_data_pred.append(i)
 
 for data in df["No_Smoothing"]:
