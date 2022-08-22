@@ -5,8 +5,6 @@ This repository is a collection of the codes and data that have been implemented
 - **Publication:** TBD
 - **Correspondence:** jonathan.h.jiang@jpl.nasa.gov
 
-![image](https://user-images.githubusercontent.com/72024767/183885987-8af5b227-a664-4d3c-b952-6d980dc90eb5.png)
-
 -------------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
   <img src="https://planetaryprotection.jpl.nasa.gov/resources/img/layout/logo_nasa_trio_black@2x.png">
