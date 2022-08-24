@@ -1,7 +1,4 @@
 import numpy as np
-from sklearn import svm
-from sklearn.svm import SVR
-from pandas import read_csv
 import matplotlib.pyplot as plt
 import random
 from random import randrange
