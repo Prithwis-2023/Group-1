@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-#from sklearn import svm
-#from sklearn.svm import SVR
 from pandas import read_csv
 import matplotlib.pyplot as plt
 from random import randrange
-#from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 import math
 from scipy.optimize import curve_fit
