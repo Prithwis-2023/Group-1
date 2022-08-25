@@ -43,12 +43,13 @@ params = curve_fit(fit_func, x_data2, y_data2)
 for years in x_data_pred:
   y_pred.append(a*years**3 + b*years**2 + c*years + d)
 
-
+plt.rc('font', weight='bold')
 plt.rcParams.update({'font.size': 22})
+plt.rcParams["figure.figsize"] = (15,15)
 plt.scatter(x_data, y_data)
-plt.xlabel("Years")
-plt.ylabel("Differences in average temperature (ºC)")
-plt.title("Global Average Temperature")
+plt.xlabel("Years", fontweight='bold')
+plt.ylabel("Differences in average temperature (ºC)", fontweight='bold')
+plt.title("Global Average Temperature", fontweight='bold')
 plt.plot(x_data_pred, y_pred, color="r")
 plt.savefig('High_res__climate_model.png', dpi=500)
 r2score = r2_score(y_data, y_pred[0:142])
@@ -90,10 +91,12 @@ for i in range(n_epochs):
 
 print(years/n_epochs)
 
+plt.rc('font', weight='bold')
 plt.rcParams.update({'font.size': 22})
+plt.rcParams["figure.figsize"] = (15,15)
 plt.hist(res, bins=20)
-plt.title('Climate Change Simulation Distribution')
-plt.ylabel('Number of Simulations')
-plt.xlabel('Years Survived')
+plt.title('Climate Change Simulation Distribution', fontweight='bold')
+plt.ylabel('Number of Simulations', fontweight='bold')
+plt.xlabel('Years Survived', fontweight='bold')
 plt.savefig("High resoltion climate dist.png",dpi=500)
 
